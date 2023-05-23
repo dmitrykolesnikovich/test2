@@ -1,0 +1,4 @@
+<rml package="manera.test2">
+    <Level id="level1"/>
+    <Level id="level2"/>
+</rml>

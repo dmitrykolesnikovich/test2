@@ -1,6 +1,10 @@
 package manera.tetris
 
 class Layer {
-    fun update(elapsedTime: Float)
-    fun draw(elapsedTime: Float)
+
+    val objects = mutableListOf<Object>()
+
+    fun update(elapsedTime: Float) {}
+    fun draw(elapsedTime: Float) {}
+
 }
