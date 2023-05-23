@@ -26,9 +26,11 @@ class Context {
 static object Resources {
     const val enemyPng: String = "images/enemy.png"
     const val heroPng: String = "images/hero.png"    
+    const val objectShader: String = "shaders/object.shader"
 }
 
 val bootstrapResources: List<String> = list(
     enemyPng, 
     heroPng,
+    objectShader,
 )

@@ -5,10 +5,11 @@ import featurea.input.*
 
 class Screen : ApplicationDelegate {
 
+    private val context: Context = import()
+
     val layers = mutableListOf<Layer>()
     val hero: Hero = import()
-    val context: Context = import()
-
+    
     init {
         context.input.add(InputListener {
             
