@@ -1,0 +1,5 @@
+artifact "manera:tetris-desktop"
+
+source {
+    include "manera:tetris"
+}

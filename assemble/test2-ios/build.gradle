@@ -1,0 +1,9 @@
+artifact "manera:tetris-ios"
+
+source {
+    include "manera:tetris"
+}
+
+XcodeProject {
+    // TBD   
+}

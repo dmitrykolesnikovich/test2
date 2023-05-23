@@ -1,0 +1,5 @@
+artifact "manera:tetris-studio"
+
+source {
+    include "manera:tetris"
+}

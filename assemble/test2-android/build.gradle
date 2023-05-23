@@ -1,0 +1,9 @@
+artifact "manera:tetris-android"
+
+source {
+    include "manera:tetris"
+}
+
+AndroidManifest {
+    // TBD   
+}

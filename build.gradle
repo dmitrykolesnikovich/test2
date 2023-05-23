@@ -1,0 +1,9 @@
+artifact "manera:tetris"
+mainCall "manera.tetris.main()"
+
+source {
+    include "org.featurea:graphics:$featurea_version"
+    include "org.featurea:audio:$featurea_version"
+    include "org.featurea:input:$featurea_version"
+    include "org.featurea:keyboard:$featurea_version"
+}
